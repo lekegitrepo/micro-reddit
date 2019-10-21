@@ -1,9 +1,6 @@
 class Post < ApplicationRecord
-  has_one :users
+  belongs_to :user
   has_many :comments
-
-  #belongs_to :user
-  #has_many :comments
 
   validates :title, length: { maximum: 250 }
   validates_presence_of :title, message: 'Please add title'
