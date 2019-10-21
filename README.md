@@ -1,24 +1,14 @@
-# README
+# Project Name
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Mico reddit
 
-Things you may want to cover:
+# Author
 
-* Ruby version
+-   [Adeleke Temitayo](https://github.com/lekegitrepo)
+-   [Ronald Tingchaleun](https://github.com/rtingchaleun)
 
-* System dependencies
+# Project Website
 
-* Configuration
+https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Project Description
