@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  attr_accessor :name, :email
+  has_many :posts
 
   validates :name, length: { minimum: 3, maximum: 20 }
   validates_presence_of :name, message: 'Put some name please'
