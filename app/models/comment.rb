@@ -1,9 +1,9 @@
 class Comment < ApplicationRecord
-  has_one :post
-  has_one :user
+  belongs_to :user
+  belongs_to :post
 
-  # belongs_to :user
-  # belongs_to :post
+  validates :name, length: { maximum: 250 }
+  validates_presence_of :name, message: 'Please add name'
 
-  validates :comment, presence: true, length: { maximum: 250 }
+  validates_presence_of :body, message: 'Please add a body text'
 end
