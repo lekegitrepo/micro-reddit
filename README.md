@@ -12,3 +12,5 @@ Mico reddit
 https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails
 
 # Project Description
+
+Implementation of model association.
